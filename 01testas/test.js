@@ -50,10 +50,12 @@ for(i=0; i<10; i++){
 }
 console.log(`---5---`);
 let a = 0;
-while(a < 5){
+while(a !== 5){
     a=rand(1,10);
     console.log(a);
 }
+
+
 console.log(`---6---`);
     const mas = [...Array(rand(20,30))].map(_ => rand(10, 30));
     console.log(mas);
